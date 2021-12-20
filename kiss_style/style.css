@@ -217,7 +217,11 @@ h5 {
         
     } 
 
-    
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     .input-layout{
       
         margin-bottom: 10px;
