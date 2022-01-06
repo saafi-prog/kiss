@@ -39,8 +39,8 @@ a:hover {
 }
 
 
-.topnav li, .copyrigth , footer li {
-    font-size: 0.8rem;
+.topnav li, footer p , footer li {
+    font-size: 1rem;
 }
 
 
@@ -73,7 +73,6 @@ input, button {
 .checkbox {
     width:200px;
     display: flex;
-    flex-direction: row-reverse ;
     text-decoration: underline;
 }
 
@@ -89,19 +88,24 @@ footer {
     width: 100%;
     height:100px;
     display: flex;
-}
-
-footer ul {
-    display: inline-block;
-    align-items: flex-start;
-}
-
-footer li,.copyrigth {
-    margin-bottom: 15px;
+    flex-wrap: wrap;
     font-weight:300 ;
 }
+.footer-nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 
-.copyrigth {
+}
+
+
+footer li {
+    margin-bottom: 15px;
+}
+
+footer p {
+    width: 100%;
+    padding: 10px;
     text-align: center;
 }
 
@@ -214,6 +218,7 @@ h5 {
 
     #img1 , #img2 {
         width: 100%;
+        margin-bottom: 10px;
         
     } 
 
@@ -227,9 +232,11 @@ h5 {
         margin-bottom: 10px;
     }
 
-    hr{
-        width:90%;
+    hr {
+        width: 90%;
     }
+
+   
 
 }
     
